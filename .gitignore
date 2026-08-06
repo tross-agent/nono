@@ -1,5 +1,4 @@
 /target
-.vscode/
 .idea/
 .DS_Store
 
@@ -7,6 +6,7 @@
 .claude/
 
 # Demo assets and runtime (not part of the distributed codebase)
+temp_auto_push.bat
 demo/
 .worktrees
 .nono
@@ -16,3 +16,5 @@ diagnostics.json
 # Library tests
 bindings/python/.venv*
 bindings/node/node_modules*
+.gitignore
+branch_structure.json
